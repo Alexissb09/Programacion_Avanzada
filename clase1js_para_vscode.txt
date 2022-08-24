@@ -1,0 +1,33 @@
+functions.js
+
+//functions declarations
+
+console.log("bienvenido $[nombre] a nuestra web $[web]);
+
+saludar("marcos", "www.google.com");
+
+
+//function expression
+
+const cliente= function (nombrecliente);
+console.log ("bienvenido a  byestra web ${nombrecliente}")
+
+cliente pedro
+
+arrow functions js
+
+let viajando = function(destino) {
+	return "voajando a ${destino} ;
+}
+
+let viaje = viajando("Bogota");
+console.log(viaje); */
+
+//arrow function
+
+let viajando = (destino) <=> {
+	return "voajando a ${destino} ;
+}
+
+let viaje = viajando("Bogota");
+console.log (viaje);
